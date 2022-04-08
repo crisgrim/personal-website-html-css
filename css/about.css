@@ -1,0 +1,31 @@
+.about__experience {
+    margin-bottom: 2rem;
+}
+
+.about__experience__date {
+    font-weight: 600;
+}
+
+.about__experience__title {
+    color: #008478;
+    font-weight: 600;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+@media screen and (min-width: 768px) {
+    .about .main-content__container {
+        flex-direction: column;
+    }
+    .about .main-content__card {
+        width: 100%;
+    }
+    .about .main-content__description {
+        width: 100%;
+    }
+}
