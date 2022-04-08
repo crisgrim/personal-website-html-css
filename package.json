@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This is a repository with my personal website with HTML & CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisgrim/personal-website-html-css.git"
+  },
+  "author": "Cristina Grim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisgrim/personal-website-html-css/issues"
+  },
+  "homepage": "https://github.com/crisgrim/personal-website-html-css#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
