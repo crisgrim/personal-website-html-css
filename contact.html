@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="author" content="Cristina Grim">
+    <meta name="description" content="Personal website">
+    <title>Cristina Grim | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header__name" href="index.html"><span>Cristina Grim</span> | Frontend developer</a>
+        <nav>
+            <ul class="header__nav">
+                <li class="header__nav__item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="header__nav__item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <article class="main-content__container">
+            <div class="main-content__card">
+                <img class="main-content__card__image" src="img/me.jpg" alt="Cristina Grim picture" />
+                <p class="main-content__card__title">Cristina Grim</p>
+                <p class="main-content__card__subtitle">Frontend developer</p>
+                <a class="main-content__card__link" href="img/resume.pdf" target="_blank">Resume</a>
+            </div>
+            <div class="main-content__description">
+                <h1>Hi, I'm Cristina 👋</h1>
+                <h2>Please, use this form to send me a message.</h2>
+                <form class="form">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" />
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" />
+                    <label for="subject">Subject:</label>
+                    <input id="subject" type="text" />
+                    <label for="mesage">Message:</label>
+                    <textarea id="mesage"></textarea>
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
